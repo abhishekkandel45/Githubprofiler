@@ -1,6 +1,6 @@
 # 🚀 GitHub Profiler: Elevate Your GitHub Presence
 
-Welcome to GitHub Profiler, the ultimate tool to supercharge your GitHub profile! Create a stunning, professional README that showcases your skills, projects, and personality - all without writing a single line of code.
+Welcome to **GitHub Profiler**, the ultimate tool to supercharge your GitHub profile! Create a stunning, professional README that showcases your skills, projects, and personality - all without writing a single line of code.
 
 ## ✨ What Sets Us Apart
 
@@ -16,13 +16,13 @@ Welcome to GitHub Profiler, the ultimate tool to supercharge your GitHub profile
 
 ## 🤔 FAQ
 
-**Q: Do I need to fill out every section?**
+**Q: Do I need to fill out every section?**  
 A: Not at all! Customize your profile by filling out only the sections that matter to you.
 
-**Q: Is coding knowledge required?**
+**Q: Is coding knowledge required?**  
 A: Zero coding experience needed! Our no-code solution does all the heavy lifting for you.
 
-**Q: How do I update my GitHub README?**
+**Q: How do I update my GitHub README?**  
 A: New to GitHub or need a refresher? Follow our step-by-step guide:
 
 1. Create a new repo with your GitHub username (if you haven't already)

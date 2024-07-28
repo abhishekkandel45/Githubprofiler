@@ -1,0 +1,409 @@
+@keyframes gradient {
+    0% {
+        background-position: 0 0
+    }
+
+    100% {
+        background-position: 100% 0
+    }
+}
+
+.webflow-style-input {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 2px;
+    padding: 1.4rem 2rem 1.6rem;
+    background: rgba(57, 63, 84, 0.8);
+}
+
+.webflow-style-input input,
+.webflow-style-input input:focus,
+.webflow-style-input textarea,
+.webflow-style-input textarea:focus {
+    flex-grow: 1;
+    color: #BFD2FF;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    vertical-align: middle;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.webflow-style-input input::placeholder,
+.webflow-style-input textarea::placeholder {
+    color: #BFD2FF;
+    opacity: 1;
+}
+
+.webflow-style-input input:-ms-input-placeholder,
+.webflow-style-input textarea:-ms-input-placeholder {
+    color: #BFD2FF;
+}
+
+.webflow-style-input input::-ms-input-placeholder,
+.webflow-style-input textarea::-ms-input-placeholder {
+    color: #BFD2FF;
+}
+
+.webflow-style-input button {
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    vertical-align: middle;
+    transition: color 0.25s;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.webflow-style-input button svg {
+    fill: #7881A1;
+    min-width: 25px;
+}
+
+.webflow-style-input button:hover svg {
+    color: #BFD2FF;
+}
+
+.webflow-style-input:after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 999;
+    height: 4px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background-position: 0% 0%;
+    background: linear-gradient(to right, #B294FF, #57E6E6, #FEFFB8, #57E6E6, #B294FF, #57E6E6);
+    background-size: 500% auto;
+    -webkit-animation: gradient 3s linear infinite;
+    animation: gradient 3s linear infinite;
+}
+
+.slider_content h2 {
+    text-align: center;
+    color: #fff;
+}
+
+.slider_content .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.slider_content .header button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.slider_content .header button svg {
+    width: 35px;
+    fill: #fff;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    color: #fff;
+    display: block;
+}
+
+
+.form_container {
+    margin-top: 5px;
+}
+
+
+.webflow-style-input textarea,
+.webflow-style-input textarea:focus {
+    resize: none;
+    overflow: hidden;
+    min-height: 300px;
+    font-size: 1.25rem;
+}
+
+.btn {
+    background: #747ca9;
+    color: #fff;
+    padding: 0.7rem 2rem;
+    border-radius: 2px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    transition: 0.3s all;
+    border: 2px solid #757cae;
+    cursor: pointer;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background: transparent;
+    color: #747ca9;
+}
+
+.slider_content .btn_container {
+    margin-top: 1rem;
+    text-align: right;
+}
+
+.checkbox_container_input:focus+.checkbox_container_control,
+.checkbox_container_input:hover+.checkbox_container_control {
+    box-shadow: 0 0 0 10px rgba(10, 10, 35, .1);
+}
+
+
+/* Toggle Button */
+.checkbox_toggle {
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+
+/* To create surface of toggle button */
+.checkbox_toggle:after {
+    content: '';
+    width: 60px;
+    height: 28px;
+    display: inline-block;
+    background: rgba(196, 195, 195, 0.55);
+    border-radius: 18px;
+    clear: both;
+}
+
+
+/* Contents before checkbox to create toggle handle */
+.checkbox_toggle:before {
+    content: '';
+    width: 22px;
+    height: 22px;
+    display: block;
+    position: absolute;
+    left: 5px;
+    top: 3px;
+    border-radius: 50%;
+    background: rgb(255, 255, 255);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+
+/* Shift the handle to left on check event */
+.checkbox_toggle:checked:before {
+    left: 32px;
+    box-shadow: -1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* Background color when toggle button will be active */
+.checkbox_toggle:checked:after {
+    background: #16a085;
+}
+
+.checkbox_toggle,
+.checkbox_toggle:before,
+.checkbox_toggle:after,
+.checkbox_toggle:checked:before,
+.checkbox_toggle:checked:after {
+    transition: ease .3s;
+    -webkit-transition: ease .3s;
+    -moz-transition: ease .3s;
+    -o-transition: ease .3s;
+}
+
+.slider_content_preview h2 {
+    text-align: center;
+    color: #fff;
+    margin: 2rem 0;
+}
+
+.pointer-events-none {
+    pointer-events: none;
+}
+
+.mt-3 {
+    margin-top: 1.5rem;
+}
+
+.d-block {
+    display: block;
+}
+
+.slider_content_preview_center {
+    text-align: center;
+    text-align: -webkit-center;
+}
+
+.social_profile_container .webflow-style-input {
+    padding: 1rem;
+}
+
+.social_profile_container input,
+.social_profile_container input:focus {
+    font-size: 1.3rem;
+    line-height: 1rem;
+}
+
+.skillimagePReview {
+    min-width: 130px;
+}
+
+.skill_group_section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.skill_group_section .form-group {
+    margin-right: 0.5rem;
+}
+
+.skill_single_container {
+    background-color: rgb(220 252 231/1);
+    border-radius: 0.175rem;
+    align-items: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    display: flex;
+    margin: 0.5rem;
+}
+
+.skill_single_container .title {
+    padding: 0.35rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-right: 1px solid rgb(75 85 99/0.25);
+}
+
+
+.skill_single_container .button {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    padding-top: 0.2rem;
+}
+
+.skill_single_container .button svg {
+    width: 1rem;
+    height: 1rem
+}
+
+
+.skill_selected_container {
+    background-color: rgb(74 222 128/1);
+    color: rgb(24 24 27/1);
+}
+
+.slider_content_settings input[type=number],
+.slider_content_settings input[type=number]:focus,
+.slider_content_settings input[type=text],
+.slider_content_settings input[type=text]:focus {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.color_picker_container>span {
+    width: 60px;
+    height: 35px;
+}
+
+.divider {
+    width: 97%;
+    height: 3px;
+    margin: 1.5rem;
+    background: linear-gradient(to right, #B294FF, #57E6E6, #FEFFB8, #57E6E6, #B294FF, #57E6E6);
+    background-size: 500% auto;
+    animation: gradient 3s linear infinite;
+}
+
+.slider_content_settings_additonal h2 {
+    margin-bottom: 1.5rem;
+}
+
+.generateContent .button_container_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.generateContent .button_container_row button {
+    transition: 0.3s all;
+    color: rgb(34 36 48);
+    border-color: rgb(35 36 49);
+    border-width: 2px;
+    border-radius: 0.375rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 0.3rem 1rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+.generateContent .button_container_row button svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-left: 5px;
+}
+
+.generateContent .button_container_row button:hover{
+    background: rgb(35 36 49);
+    color: #fff;
+}
+
+.wmde-markdown{
+    white-space: pre-wrap;
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+.wmde-markdown h2{
+    text-align: left;
+}
+
+.container_preview_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+.container_preview_title{
+    background-color: #0d1117;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 10px 30px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    text-align: center;
+}
+
+.wmde-markdown h1, .wmde-markdown h2, .wmde-markdown h3, .wmde-markdown h4, .wmde-markdown h5, .wmde-markdown h6{
+    margin: 0;
+}
+
+.nepal_svg > path{
+    fill: #21222e;
+}
+
+.container_preview_container .container_preview{
+    width: 100%;
+}

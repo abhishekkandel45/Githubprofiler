@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-image: radial-gradient(circle at 0% 0%, #373b52, #252736 51%, #1d1e26);
+}
+
+::-webkit-scrollbar{
+    background-color: #fff;
+    width:0.4vw;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #000;
+}
+
+:root{
+    --primary:#009688;
+}

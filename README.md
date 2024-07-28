@@ -73,7 +73,7 @@ We expect all contributors to adhere to our [Code of Conduct](CODE_OF_CONDUCT.md
 
 ## 📜 License
 
-GitHub Profiler is open source software licensed under the [GPL-3.0 License](https://choosealicense.com/licenses/gpl-3.0/). See the [LICENSE](LICENSE) file for more details.
+GitHub Profiler is open source software licensed under the [GPL-3.0 License](https://choosealicense.com/licenses/gpl-3.0/). See the [LICENSE](LICENSE.md) file for more details.
 
 ---
 

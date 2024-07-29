@@ -71,6 +71,14 @@ For major changes, please open an issue first to discuss what you would like to 
 
 We expect all contributors to adhere to our [Code of Conduct](CODE_OF_CONDUCT.md). Please read it before participating.
 
+## 👥 Contributors
+
+We appreciate all the wonderful contributions that help make GitHub Profiler better! Here are our amazing contributors:
+
+<a href="https://github.com/abhishekkandel45/githubprofiler/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=abhishekkandel45/githubprofiler" />
+</a>
+
 ## 📜 License
 
 GitHub Profiler is open source software licensed under the [GPL-3.0 License](https://choosealicense.com/licenses/gpl-3.0/). See the [LICENSE](LICENSE.md) file for more details.
